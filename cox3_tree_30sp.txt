@@ -1,0 +1,8 @@
+#NEXUS
+begin trees;
+	tree tree_1 = [&R] (Chondrus_crispus:2.22746,(Dictyota_dichotoma:0.15260,(Padina_pavonica:0.25112,(Canistrocarpus_cervicornis:0.32735,(Halopteris_filicina:0.44954,((Saccorhiza_polyschides:0.11195,(((Saccharina_latissima:0.03329,Saccharina_japonica:0.00938):0.05078,(Agarum_clathratum:0.05317,Laminaria_digitata:0.05611):0.01576):0.11481,(Pylaiella_littoralis:0.19805,((Colpomenia_peregrina:0.08853,(Colpomenia_sinuosa:0.08566,Scytosiphon_lomentaria:0.15425):0.02303):0.05703,((Ectocarpus_fasciculatus:0.03412,(Ectocarpus_crouaniorum:0.04283,(Ectocarpus_subulatus:0.04894,Ectocarpus_siliculosus:0.03564):0.00433):0.00759):0.07800,(Cladosiphon_okamuranus:0.12086,(Stilophora_tenella:0.04417,(Striaria_attenuata:0.05425,(Punctaria_latifolia:0.07089,Punctaria_plantaginea:0.07576):0.02033):0.01044):0.01890):0.03304):0.03374):0.01221):0.04504):0.04937):0.09149,((Cystoseira_tamariscifolia:0.12453,(Sargassum_vulgare:0.04735,(Sargassum_ringgoldianum:0.03655,Sargassum_fusiforme:0.05626):0.01974):0.06159):0.04319,(Ascophyllum_nodosum:0.04995,Fucus_spiralis:0.04473):0.17244):0.08488):0.19969):0.10529):0.10813):0.08121):1.30071);
+
+end;
+
+
+
