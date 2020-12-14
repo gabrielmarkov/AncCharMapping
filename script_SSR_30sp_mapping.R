@@ -95,6 +95,10 @@ simmap_summary$ace
 56 0.701 0.000 0.299
 57 0.462 0.000 0.538
 
+# numbers in first column refer to node labels, to plot them type:
+plot(tree)
+nodelabels()
+# node 37 refers to the last common ancestor of Laminariales and Ectocarpales, discussed in the manuscript
 
 # plotting posterior density of stochastic mapping on the tree and saving it into a pdf file.
 pdf("Simmap_SYM_LateSSR_30sp.pdf", height=7, width=6)
