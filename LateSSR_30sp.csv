@@ -1,13 +1,13 @@
 Species,Trait
 Saccharina_latissima,Y
-Saccharina_japonica,Y
+Saccharina_japonica,N
 Agarum_clathratum,Y
-Laminaria_digitata,N
-Ectocarpus_siliculosus,Y
+Laminaria_digitata,Y
+Ectocarpus_siliculosus,N
 Ectocarpus_crouaniorum,Y
 Ectocarpus_fasciculatus,Y
 Ectocarpus_subulatus,N
-Punctaria_plantaginea,Y
+Punctaria_plantaginea,N
 Punctaria_latifolia,N
 Striaria_attenuata,N
 Stilophora_tenella,N
