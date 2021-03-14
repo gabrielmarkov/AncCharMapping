@@ -98,7 +98,8 @@ simmap_summary$ace
 # numbers in first column refer to node labels, to plot them type:
 plot(tree)
 nodelabels()
-# node 37 refers to the last common ancestor of Laminariales and Ectocarpales, discussed in the manuscript
+# node 37 refers to the last common ancestor of Laminariales and Ectocarpales, and node 49 is the last 
+# common ancestor of Chordariaceae. Probability states at both nodes are discussed in the manuscript.
 
 # plotting posterior density of stochastic mapping on the tree and saving it into a pdf file.
 pdf("Simmap_SYM_LateSSR_30sp.pdf", height=7, width=6)
