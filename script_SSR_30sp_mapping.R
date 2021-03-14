@@ -13,7 +13,7 @@ tree<-read.nexus("cox3_tree_30sp.txt");
 
 # reading the table with late SSR pathway presence/absence data
 trait <- read.csv("LateSSR_30sp.csv", header =T, row.names = 1);
-# coding: Y = Late SSR present; N = Late SSR absent; U = unknown
+# character encoding: Y = Late SSR present; N = Late SSR absent; U = unknown
 
 # transforming the data table into a vector format.
 vec_trait<-trait[,1]
@@ -52,48 +52,48 @@ simmap_summary
 1000 trees with a mapped discrete character with states:
  N, U, Y 
 
-trees have 5.297 changes between states on average
+trees have 614.77 changes between states on average
 
 changes are of the following types:
-       N,U    N,Y   U,N U,Y    Y,N Y,U
-x->y   0 1.286   0 0.286 2.61 1.115
+     N,U    N,Y U,N   U,Y     Y,N   Y,U
+x->y   0 305.83   0 0.511 307.164 1.265
 
 mean total time spent in each state is:
              N          U         Y   total
-raw  0.9565393 0.30185465 6.6696560 7.92805
-prop 0.1206525 0.03807426 0.8412732 1.00000
+raw  3.7818801 0.40812895 3.7380410 7.92805
+prop 0.4770253 0.05147911 0.4714956 1.00000
 
 
 simmap_summary$ace
        N     U     Y
-30 0.332 0.085 0.583
-31 0.001 0.001 0.998
-32 0.001 0.000 0.999
-33 0.000 0.000 1.000
-34 0.001 0.000 0.999
-35 0.001 0.000 0.999
-36 0.000 0.000 1.000
-37 0.000 0.000 1.000
-38 0.000 0.000 1.000
-39 0.000 0.000 1.000
-40 0.000 0.000 1.000
-41 0.000 0.000 1.000
-42 0.000 0.000 1.000
-43 0.000 0.000 1.000
-44 0.001 0.000 0.999
-45 0.000 0.000 1.000
-46 0.000 0.000 1.000
-47 0.000 0.000 1.000
-48 0.000 0.000 1.000
-49 0.000 0.000 1.000
-50 0.000 0.000 1.000
-51 0.000 0.000 1.000
-52 0.001 0.000 0.999
-53 0.000 0.000 1.000
-54 0.000 0.000 1.000
-55 0.000 0.000 1.000
-56 0.006 0.000 0.994
-57 0.000 0.000 1.000
+30 0.457 0.119 0.424
+31 0.531 0.003 0.466
+32 0.520 0.000 0.480
+33 0.472 0.000 0.528
+34 0.484 0.000 0.516
+35 0.518 0.000 0.482
+36 0.521 0.000 0.479
+37 0.514 0.000 0.486
+38 0.494 0.000 0.506
+39 0.616 0.000 0.384
+40 0.493 0.000 0.507
+41 0.506 0.000 0.494
+42 0.489 0.000 0.511
+43 0.515 0.000 0.485
+44 0.506 0.000 0.494
+45 0.499 0.000 0.501
+46 0.509 0.000 0.491
+47 0.515 0.000 0.485
+48 0.513 0.000 0.487
+49 0.513 0.004 0.483
+50 0.476 0.000 0.524
+51 0.485 0.000 0.515
+52 0.514 0.000 0.486
+53 0.535 0.001 0.464
+54 0.519 0.000 0.481
+55 0.500 0.000 0.500
+56 0.481 0.000 0.519
+57 0.514 0.000 0.486
 
 # numbers in first column refer to node labels, to plot them type:
 plot(tree)
